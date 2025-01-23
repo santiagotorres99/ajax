@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilotos de Fórmula 1</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pilotos de Fórmula 1</h1>
+          <div class="controls">
+                <div>
+                    <label for="sort">Ordenar por:</label>
+                    <select id="sort">
+                        <option value="nombre_asc">Nombre (Ascendente)</option>
+                        <option value="nombre_desc">Nombre (Descendente)</option>
+                        <option value="equipo_asc">Equipo (Ascendente)</option>
+                        <option value="equipo_desc">Equipo (Descendente)</option>
+                    </select>
+                </div>
+                <div>
+                  <label for="nacionalidad">Filtrar por Nacionalidad:</label>
+                  <input type="text" id="nacionalidad" placeholder="Escribe nacionalidad">
+              </div>
+            </div>
+        <div id="pilotos-container">
+        </div>
+         <div class="pagination">
+             <button id="prev-page" disabled>Anterior</button>
+              <div id="page-number"></div>
+            <button id="next-page" disabled>Siguiente</button>
+              <button id="view-all">Ver todos</button>
+        </div>
+    </div>
+    <script src="pilotos.js"></script>
+</body>
+</html>

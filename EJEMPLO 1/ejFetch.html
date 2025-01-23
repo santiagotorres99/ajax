@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo">Mira la consola.</p>
+<script>
+
+let file = "https://randomuser.me/api/?results=2&format=JSON"
+
+fetch (file)
+  .then(x => x.text()) //Devuelve una promesa con el texto plano de la                    respuesta que procesamos en el siguiente .then. Podemos utilizar también         x.json() que es lo mismo pero devuelve una promesa con los datos en JSON, lo que equivale a hacer JSON.parse()
+  .then(y => {console.log(JSON.parse(y));
+  console.log(y);
+  let personas=JSON.parse(y);
+  console.log(personas.results[0].name.first)
+});
+//muestra por consola el objeto
+
+</script>
+
+</body>
+</html>
+

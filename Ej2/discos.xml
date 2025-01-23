@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discos>
+    <disco>
+        <nombre>Gira Me Verás Volver</nombre>
+        <grupo>Soda Stereo</grupo>
+        <año>2005</año>
+        <tipo>rock</tipo>
+        <localizacion>1</localizacion>
+        <prestado>false</prestado>
+        <caratula>soda.jpg</caratula>
+    </disco>
+    <disco>
+        <nombre>Led Zeppelin</nombre>
+        <grupo>Led Zeppelin</grupo>
+        <año>1969</año>
+        <tipo>rock</tipo>
+        <localizacion>1</localizacion>
+        <prestado>false</prestado>
+        <caratula>LedZeppelin.jpg</caratula>
+    </disco>
+</discos>
